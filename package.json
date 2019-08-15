@@ -1,0 +1,17 @@
+{
+  "name": "swarm-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:PaulLeCam/swarm-website.git",
+  "author": "Paul Le Cam <paul@mainframe.com>",
+  "license": "MIT",
+  "scripts": {
+    "setup": "erebos website:setup",
+    "build": "cd website && yarn build",
+    "upload": "erebos website:publish ./website/build/test-site --hash=2828614397cecb61d241e38fb29e7c7469f09949865e1bce49f4011fabff6975 --http-gateway=https://swarm-gateways.net --key-env=KEY",
+    "deploy": "yarn build && yarn upload"
+  },
+  "devDependencies": {
+    "@erebos/cli": "^0.9.0"
+  }
+}

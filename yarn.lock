@@ -425,8 +425,9 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
-"elliptic@github:MainframeHQ/elliptic#circular-dependencies-fix":
+elliptic@MainframeHQ/elliptic#circular-dependencies-fix:
   version "6.4.1"
+  uid "11299b673d219dc67eb1d9c22e3006ffdea6fd42"
   resolved "https://codeload.github.com/MainframeHQ/elliptic/tar.gz/11299b673d219dc67eb1d9c22e3006ffdea6fd42"
   dependencies:
     bn.js "^4.4.0"
@@ -622,9 +623,9 @@ nanoid@^2.0.1:
   integrity sha512-NbaoqdhIYmY6FXDRB4eYtDVC9Z9eCbn8TyaiC16LNKtpPv/aqa0tOPD8y6gNE4yUNnaZ7LLhYtXOev/6+cBtfw==
 
 node-fetch@^2.3.0, node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 oboe@^2.1.4:
   version "2.1.4"
